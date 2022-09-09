@@ -1,0 +1,67 @@
+.loginText{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.form{
+    padding-left: 50px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        width: 40%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .forgotPasswordLink{
+        font-size: 0.8em;
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    button{
+        width: 20%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(6, 143, 255);
+    }
+
+    .createAccountLink{
+        text-decoration: none;
+        font-size: 0.8em;
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-top: 5px;
+
+    }
+
+
+}
+
+.createAccount{
+    padding-top: 50px;
+    padding-left: 50px;
+    
+}
+
+.forgotPassword{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.steps{
+    padding-top: 50px;
+    padding-left: 50px;
+}

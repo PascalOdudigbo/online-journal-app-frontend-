@@ -1,0 +1,36 @@
+.logoutContainer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+
+
+    .welcome{
+        font-size: 1em;
+        padding-left: 12px;
+        font-family: 'Nunito', sans-serif;
+        //font-weight: lighter;
+    }
+    
+    .logout{
+        float: right;
+        margin-right: 40px;
+        text-decoration: none;
+        background-color: white;
+        height: 18px;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: black;
+        padding: 8px 12px;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+    
+    }
+    .logout:hover, .logout:active {
+        background-color: rgb(255, 6, 6);
+        color: white
+    }
+}
+

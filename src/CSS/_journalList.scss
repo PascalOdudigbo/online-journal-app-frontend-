@@ -1,0 +1,119 @@
+.jContainer{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+
+    h4{
+        margin-left: 310px;
+        margin-top: 30px;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+    }
+
+    .wrapper{
+        padding-left: 10px;
+
+        .search{
+            padding: 10px 20px;
+            background-color: rgb(235, 227, 227);
+            border-radius: 5px;
+            color: black;
+            margin-left: 5px;
+        }
+
+        .search:hover, .search:focus {
+            border: 2px solid #009688;
+            background-color: white;
+          }
+    }
+
+}
+
+.myJournals{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 0.5em;
+    margin-left: 40px;
+}
+
+.entryWrapper{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    color: white;
+    // margin-bottom: 200px;
+    overflow: hidden;
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+    .timestampWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 1.5em;
+    }
+
+    .titleWrapper{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .bodyWrapper{
+        padding: 10px;
+        font-size: 1.5em;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .editLink{
+        font-size: 1.1em;
+        width: 15%;
+        margin-top: 30px;
+        // padding-left: 25px;
+        margin-bottom: 10px;
+        background-color: white;
+        color: black;
+        padding: 8px 17px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+    .editLink:hover, .editLink:active .editLink:visited {
+        background-color: #04aa36;
+        color: white;
+    }
+    
+    .deleteButton{
+        width: 30%;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: white;
+        color: black;
+        padding: 8px 10px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    .deleteButton:hover, .deleteButton:active {
+        background-color: #aa1d04;
+        color: white;
+    }
+    
+}
+
+.entryWrapper:hover, .entryWrapper:focus {
+    border: 2.5px solid #000000;
+    background-color: white;
+    color: black;
+  }
